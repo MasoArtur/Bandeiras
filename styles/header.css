@@ -1,0 +1,66 @@
+header{
+    width: 96vw;
+    height: 20vh;
+
+    padding: 0 2vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secao_header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.secao_header i{
+    color: black;
+    font-size: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(1.5);
+
+    animation: icn 5s  infinite alternate ease-in-out;
+}
+
+#header_icon{
+    align-items: center;
+    justify-content: center;
+}
+
+#header_botoes{
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+
+}
+
+.botao{
+    margin: 2vw;
+    font-size: 25px;
+
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 2vh;
+    align-items: center;   
+    color: darkred;
+}
+
+.botao:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+@keyframes icn{
+    0%{
+        transform: rotate(0deg) rotateX(0deg);
+    }
+    100%{
+        transform: rotate(360deg) rotateX(34deg);
+    }
+}
