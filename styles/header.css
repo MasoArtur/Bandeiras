@@ -54,6 +54,7 @@ header{
 .botao:hover{
     cursor: pointer;
     transform: scale(1.5);
+    color: blue;
 }
 
 @keyframes icn{
